@@ -11,7 +11,7 @@
 /*#include <string.h>
 #include <stdio.h>*/
 
-/*char* my_upcase(char* param_1)
+char* my_upcase(char* param_1)
 {
     int i = 0;
 
@@ -24,9 +24,9 @@
         i++;
     }
     return param_1;
-} // It does not work?! What the fuck? Well, let's recycle my old toupper().*/
+} // It does not work?! What the fuck? Well, let's recycle my old toupper().
 
-int toupper(int c)
+/*int toupper(int c)
 {
     return (( 97 <= c && c <= 122 ) ? c - 32 : c);
 }
@@ -41,7 +41,7 @@ char* my_upcase(char* param_1)
         i++;
     }
     return param_1;
-}
+}/*
 
 /*
 Example of main
